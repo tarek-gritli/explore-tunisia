@@ -1,0 +1,172 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 20px;
+}
+.navbar-img {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.nav-item {
+  margin-left: 40px;
+}
+.navbar-link {
+  font-size: 25px;
+}
+.home {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.home-text {
+  margin-right: 60px;
+  font-size: 60px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  font-family: "Montserrat";
+}
+.slide-in {
+  animation: slide-in 2s ease-in-out forwards;
+}
+.slide-in-right {
+  animation: slide-in-right 2s ease-in-out forwards;
+
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.destinations-section {
+  font-size: 50px;
+}
+.destination-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 20vh;
+  width: 100%;
+}
+.destination-img {
+  max-height: 60%;
+  min-width: 45%;
+  max-width: 50%;
+  width: 450px;
+  padding: 20px;
+}
+.destination-img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+.destination-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin: 20px;
+}
+.icon-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+.icon {
+  color: #FF5A5F;
+  margin-right: 10px;
+}
+.destination-name {
+  font-size: 40px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+.text-muted {
+  font-size: large;
+}
+.location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.destination-description {
+  font-size: 23px;
+  text-align: left;
+  margin-top: 20px;
+}
+.destination-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #0dcaf0;
+  cursor: pointer;
+}
+.destination-link:hover {
+  color: #FF5A5F;
+  text-decoration: underline;
+}
+@media (max-width: 1000px ) {
+  .destination-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .destination-img{
+    min-width: 60%;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  background-color: #f8f9fa;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.git-icon {
+  margin-right: 20px;
+  color: black;
+}
+.footer-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
