@@ -12,8 +12,8 @@ export default function Home()
             <div className="home container embed-responsive embed-responsive-16by9">
                 <h1 className="home-text">Explore<br />The<br />Beautiful<br />Tunisia</h1>
                 <iframe 
-                    width="1200" 
-                    height="600" 
+                    width="1000" 
+                    height="500" 
                     src="https://www.youtube.com/embed/OtJVufo3IrA?si=rdbRGyg8ZpO0Pllp&autoplay=1&mute=1" 
                     title="YouTube video player" 
                     frameborder="0" 

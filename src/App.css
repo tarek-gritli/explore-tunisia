@@ -42,7 +42,7 @@ nav {
 }
 .home-text {
   margin-right: 60px;
-  font-size: 60px;
+  font-size: 50px;
   opacity: 0;
   transition: opacity 2s ease-in-out;
   font-family: "Montserrat";
@@ -75,7 +75,8 @@ nav {
   }
 }
 .destinations-section {
-  font-size: 50px;
+  font-size: 45px;
+  margin-top: 20px;
 }
 .destination-header {
   display: flex;
