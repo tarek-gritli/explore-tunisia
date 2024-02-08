@@ -40,7 +40,13 @@ To run this app locally, follow these steps:
 - [World Heritage Convention](https://whc.unesco.org/en/convention/) - Contains a list of the historical sites in Tunisia
 - [The dreamer wild and free](https://www.youtube.com/channel/UC1Y-wNGKRe3T8IMxmBCgiZA) - Homepage video
 
+## Deployment
+
+This website was deployed using Netlify. You can access it [here](https://explore-tunisia.netlify.app/)
+
+
 ## Contact
+
 For any inquiries, please email me at gritli.tarek66@gmail.com
 
 
