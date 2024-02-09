@@ -82,7 +82,7 @@ const data = [
         imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXzhqZe0LEFQUpwmFgWOR-JkdS_Q8ianjjex3iNc4mw&s",
         description: "The El Ghriba Synagogue is located on the Tunisian island of Djerba. It is one of the oldest and most famous synagogues in the world. It is also the oldest synagogue in Tunisia and is the most important pilgrimage site for the Jewish community in the country.",
         url: "https://www.tripadvisor.com/Attraction_Review-g297941-d477280-Reviews-El_Ghriba_Synagogue-Djerba_Island_Medenine_Governorate.html",
-        position: [33.826, 10.732]
+        position: [33.81493611, 10.85869167]
     },
     {
         id: 10,
