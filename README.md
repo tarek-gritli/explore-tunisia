@@ -6,7 +6,7 @@ This is my project that showcases the best places to visit in Tunisia.
 
 - Provide detailed information about each location, including: description,photos ...
 - Responsive Design ensuring that  it works well on all devices (desktop, tablet and mobile).
-
+- Map containing markers for each place showing their exact locations.
 
 ## Installation
 
@@ -29,10 +29,13 @@ To run this app locally, follow these steps:
    npm install --save @fortawesome/free-solid-svg-icons
    npm install --save @fortawesome/free-brands-svg-icons
    npm install --save @fortawesome/react-fontawesome@latest
-5. Start the server:
+5. Install React-Leaflet:
+   ```bash
+   npm install react react-dom leaflet react-leaflet
+6. Start the server:
    ```bash
    npm run dev
-6. Open your browser and navigate to  `http://localhost:5173`
+7. Open your browser and navigate to  `http://localhost:5173`
 
 ## Useful Ressources
 

@@ -11,6 +11,7 @@ export default function Header() {
                     <ul className="navbar-ul navbar-nav">
                         <li className="nav-item active"><a className="navbar-brand navbar-link" href="#home">Home</a></li>
                         <li className="nav-item active"><a className="navbar-brand navbar-link" href="#destinations">Destinations</a></li>
+                        <li className="nav-item active"><a className="navbar-brand navbar-link" href="#map">Map</a></li>
                     </ul>
             </nav>
         </header>
