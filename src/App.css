@@ -153,6 +153,16 @@ nav {
     min-width: 60%;
     max-width: 100%;
   }
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-video {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .footer {

@@ -19,7 +19,7 @@ export default function Home()
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen
-                    className="embed-responsive-item"
+                    className="embed-responsive-item home-video"
                     >
                 </iframe>
             </div>
